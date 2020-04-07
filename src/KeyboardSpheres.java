@@ -199,7 +199,7 @@ public class KeyboardSpheres extends JPanel implements KeyListener{
 
     public void keyTyped(KeyEvent e) {
 	char c = e.getKeyChar();
-	System.out.println("You typed: " + c);
+	System.out.println("You typed : " + c);
     }
      public void addNotify() {
         super.addNotify();
@@ -215,7 +215,7 @@ public class KeyboardSpheres extends JPanel implements KeyListener{
     }
     
     public static void main(String[] args){
-	JFrame frame = new JFrame("Physics!!!");
+	JFrame frame = new JFrame("Physics!!");
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	KeyboardSpheres mainInstance = new KeyboardSpheres();
 	frame.setContentPane(mainInstance);
